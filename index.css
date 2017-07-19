@@ -1,0 +1,44 @@
+#sky{
+    background-color:blue;
+    width:40vw;
+    height:60vh;
+    animation-name:rach;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    position:absolute;
+
+
+
+}
+@keyframes rach{
+0% {
+    top:5px;
+    left:5px;
+}
+
+50% {
+    top:30px;
+    left:7px;
+}
+
+100% {
+    top:5px;
+    left:5px;
+
+}
+}
+
+#blue{
+    background-color:pink;
+    width:20vw;
+    height:50vh;
+
+
+}
+
+#love{
+    background-color:purple;
+    width:45vw;
+    height:56vh;
+}
