@@ -1,44 +1,119 @@
 #sky{
-    background-color:blue;
-    width:40vw;
-    height:60vh;
-    animation-name:rach;
+    background-color:rgba(215, 54, 155, 0.9);
+    width:20vw;
+    height:40vh;
+    position:absolute;
+    border-radius:100%;
+    margin-left:60px;
+}
+
+    #sky:hover{
+    animation-name:sky;
+    background-color:pink;
     animation-duration: 3s;
     animation-iteration-count:infinite;
     animation-direction:alternate;
-    position:absolute;
 
-
-
+    
 }
-@keyframes rach{
-0% {
-    top:5px;
-    left:5px;
+@keyframes sky{
+    0% {
+        top:70px;
+        left:5px;
+
+    }
+
+    50% {
+        top:30px;
+        left:7px;
+    
+    }
+
+    100% {
+        top:5px;
+        left:5px;
+
+    }
 }
 
-50% {
-    top:30px;
-    left:7px;
-}
+/*-----------------------------------------------------------------------------*/
 
-100% {
-    top:5px;
-    left:5px;
-
-}
-}
 
 #blue{
-    background-color:pink;
     width:20vw;
-    height:50vh;
+    height:40vh;
+    border-radius:100%;
+    margin-left:500px;
+    position:absolute;
+    background-color:rgb(255, 51, 0);
 
+}
+#blue:hover{
+    background-color:rgba(255, 187, 35, 0.6);
+    animation-name:cook;
+    animation-iteration-count:infinite;
+    animation-duration:4s;
+    animation-direction:alternate;
+    animation-timing-function:ease-in-out;
+}
+@keyframes cook{
+   from{background:purple}
+   to{background: yellow}
+}
+
+
+@keyframes cook{
+    0% {
+        top:70px;
+        left:5px;
+    }
+
+    50% {
+        top:30px;
+        left:7px;
+    }
+
+    100% {
+        top:5px;
+        left:5px;
+
+    }
+}
+
+/*--------------------------------------------------------------------*/
+
+
+#love{
+    width:20vw;
+    height:40vh;
+    border-radius:100%;
+    position:absolute;
+    margin-left:900px;
+    background: -moz-linear-gradient(bottom right, rgb(255, 51, 0),rgb(255, 102, 255) );
+    }
+#love:hover{
+    animation-name:love;
+    animation-direction:reverse;
+    animation-iteration-count:infinite;
+    animation-duration:3s;
+    animation-timing-function:linear;
 
 }
 
-#love{
-    background-color:purple;
-    width:45vw;
-    height:56vh;
+@keyframes love{
+     0% {
+        top:70px;
+        left:5px;
+    }
+
+    50% {
+        top:30px;
+        left:7px;
+    }
+
+    100% {
+        top:5px;
+        left:5px;
+
+    }
 }
